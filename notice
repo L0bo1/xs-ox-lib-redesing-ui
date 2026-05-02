@@ -1,0 +1,23 @@
+## ox_lib
+
+This package is a modified version of `ox_lib` by Overextended.
+
+- Original project: https://github.com/overextended/ox_lib
+- License: LGPL-3.0-or-later
+- Original copyright and notices are preserved in the included `ox_lib/LICENSE` and `ox_lib/NOTICE.md` files.
+
+## Teko Font
+
+Teko is distributed under the SIL Open Font License, Version 1.1.
+
+- Copyright: Copyright 2014 Indian Type Foundry
+- License: SIL Open Font License 1.1
+- License text: `OFL-1.1.txt`
+
+The included files are:
+
+- `ox_lib/web/public/fonts/Teko-Bold.otf`
+- `ox_lib/web/public/fonts/Teko-Light.otf`
+- `ox_lib/web/public/fonts/Teko-Medium.otf`
+- `ox_lib/web/public/fonts/Teko-Regular.otf`
+- `ox_lib/web/public/fonts/Teko-SemiBold.otf`
