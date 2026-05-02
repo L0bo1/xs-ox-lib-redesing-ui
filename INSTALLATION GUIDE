@@ -1,0 +1,37 @@
+## Drag-and-Drop Install
+
+1. Download the release zip.
+2. Extract it.
+3. Copy the included `ox_lib` folder into your server resources.
+4. Replace your current `ox_lib` only after making a backup.
+5. Keep the folder name as `ox_lib`.
+6. Restart the resource:
+
+```txt
+restart ox_lib
+```
+
+## Server Config
+
+Make sure `ox_lib` starts before resources that depend on it:
+
+```txt
+ensure ox_lib
+ensure your_inventory
+ensure your_clothing
+ensure your_other_scripts
+```
+
+## Common Issues
+
+### The UI did not change
+
+Clear your FiveM cache and restart `ox_lib`.
+
+### Test commands do not work
+
+The test commands must be placed in a client-side resource. They will not work if pasted directly into F8.
+
+### Some scripts still use their own UI
+
+Only scripts using `ox_lib` UI modules will show this redesign. Custom UI from other resources will not be affected.
